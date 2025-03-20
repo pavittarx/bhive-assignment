@@ -4,39 +4,29 @@
 :root {
   --radius: 0.625rem;
   /* Primary Colors */
-  --background: oklch(1 0 0);
-  --foreground: oklch(0 0 0);
+  --background: #F9FAFF;
+  --white: #fff;
   
   /* Logo Colors */
   --primary: #000000;
+  --primary-2: #ffbb00;
   --primary-foreground: #ffffff;
   
-  /* Button Colors */
-  --secondary: #F7F2E2;
-  --secondary-foreground: #2C2C2C;
-  --accent: #FFB800;
-  --accent-foreground: #000000;
-  
-  /* Text Colors */
-  --muted: #2C2C2C;
-  --muted-foreground: #4D4D4D;
-  
-  /* UI Colors */
-  --card: oklch(1 0 0);
-  --card-foreground: #2C2C2C;
-  --popover: oklch(1 0 0);
-  --popover-foreground: #2C2C2C;
-  --destructive: #FF4D4D;
-  --border: #E5E5E5;
-  --input: #E5E5E5;
-  --ring: #FFB800;
+  --main: #FFCF4B;
+  --main-stroke: #FFC422;
+
+  --main-grey: #F9F9F9;
+  --main-dark-grey: #CEC6C6;
+
+  --text-main: #263238;
+  --text-secondary: #65624C;
   
   /* Greys */
-  --grey-1: #2C2C2C;
-  --grey-2: #4D4D4D;
-  --grey-3: #7A7A7A;
-  --grey-4: #A7A7A7;
-  --grey-5: #E5E5E5;
+  --grey-1: #333333;
+  --grey-2: #4F4F4F;
+  --grey-3: #828282;
+  --grey-4: #B7B6B8;
+  --grey-5: #E0E0E0;
   
   /* Sidebar Colors */
   --sidebar: oklch(1 0 0);
@@ -68,6 +58,7 @@
 
 body {
   background: var(--background);
+  color: var(--text-main);
 }
 
 h1 {

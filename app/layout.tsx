@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   description: "takehome assignment by @pavittarx",
 };
 
+import Header from "./shared/Header";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,6 +23,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>
