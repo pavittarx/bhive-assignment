@@ -1,0 +1,117 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --radius: 0.625rem;
+  /* Primary Colors */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0 0 0);
+  
+  /* Logo Colors */
+  --primary: #000000;
+  --primary-foreground: #ffffff;
+  
+  /* Button Colors */
+  --secondary: #F7F2E2;
+  --secondary-foreground: #2C2C2C;
+  --accent: #FFB800;
+  --accent-foreground: #000000;
+  
+  /* Text Colors */
+  --muted: #2C2C2C;
+  --muted-foreground: #4D4D4D;
+  
+  /* UI Colors */
+  --card: oklch(1 0 0);
+  --card-foreground: #2C2C2C;
+  --popover: oklch(1 0 0);
+  --popover-foreground: #2C2C2C;
+  --destructive: #FF4D4D;
+  --border: #E5E5E5;
+  --input: #E5E5E5;
+  --ring: #FFB800;
+  
+  /* Greys */
+  --grey-1: #2C2C2C;
+  --grey-2: #4D4D4D;
+  --grey-3: #7A7A7A;
+  --grey-4: #A7A7A7;
+  --grey-5: #E5E5E5;
+  
+  /* Sidebar Colors */
+  --sidebar: oklch(1 0 0);
+  --sidebar-foreground: #2C2C2C;
+  --sidebar-primary: #000000;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #FFB800;
+  --sidebar-accent-foreground: #000000;
+  --sidebar-border: #E5E5E5;
+  --sidebar-ring: #FFB800;
+
+  --radius: 0.625rem;
+  /* Typography */
+  --font-size-h1: 58px;
+  --font-size-h2: 36px;
+  --font-size-h3: 24px;
+  --font-size-h4: 20px;
+  --font-size-h5: 18px;
+  --font-size-h6: 16px;
+  
+  --line-height-h1: calc(var(--font-size-h1) * 1.1);
+  --line-height-h2: calc(var(--font-size-h2) * 1.1);
+  --line-height-h3: calc(var(--font-size-h3) * 1.1);
+  --line-height-h4: calc(var(--font-size-h4) * 1.1);
+  --line-height-h5: calc(var(--font-size-h5) * 1.1);
+  --line-height-h6: calc(var(--font-size-h6) * 1.1);
+  
+}
+
+body {
+  background: var(--background);
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-h1);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-h3);
+  font-weight: 600;
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height-h4);
+  font-weight: 600;
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+  line-height: var(--line-height-h5);
+  font-weight: 500;
+}
+
+h6 {
+  font-size: var(--font-size-h6);
+  line-height: var(--line-height-h6);
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Paragraph spacing */
+p + p {
+  margin-top: 1rem;
+}
