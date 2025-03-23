@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { ServicesSection } from "./shared/Sections/ServicesSection";
 import { SpacesSection } from "./shared/Sections/SpacesSection";
+import { DownloadOurApp } from "./shared/Sections/DownloadsSection";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       </div>
       <ServicesSection />
       <SpacesSection />
+      <DownloadOurApp />
     </main>
   );
 }
