@@ -41,6 +41,7 @@ export const DownloadOurApp = () => {
                                 alt="app store"
                                 width={400}
                                 height={350}
+                                unoptimized
                             />
                         </div>
                         <div

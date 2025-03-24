@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { Phone } from 'lucide-react'
+import Image from "next/image"
+import Link from "next/link"
+import { Phone } from "lucide-react"
 
 export default function Header() {
     return (
@@ -14,9 +14,10 @@ export default function Header() {
                                 <Image
                                     src="/bhive-logo.png"
                                     alt="BHIVE WORKSPACE LOGO"
-                                    width={125}  
+                                    width={125}
                                     height={40}
                                     className="h-10 w-auto"
+                                    unoptimized
                                 />
                             </Link>
                         </div>
