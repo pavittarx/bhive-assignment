@@ -44,11 +44,15 @@ export const HomeSection = () => {
       <h1
         className={oneLine`
           w-full
-          max-w-3xl
+          
           text-base
           font-[600]
-          text-[24px]
+          text-[20px]
           text-center
+          mx-auto
+          max-w-[400px]
+          lg:mx-none
+          lg:max-w-3xl
           lg:text-left
           lg:text-[56px]
           lg:font-bold

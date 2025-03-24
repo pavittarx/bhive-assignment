@@ -59,6 +59,14 @@
 
   --extra-grey: #eee7e7;
   --extra-yellow: #ffc422;
+
+  --shadow-services-card: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
