@@ -82,6 +82,7 @@ export const DownloadOurApp = () => {
                                         alt="google play"
                                         width={146}
                                         height={45}
+                                        unoptimized
                                     />
                                 </Link>
                                 <Link href="https://appstore.com">
@@ -90,6 +91,7 @@ export const DownloadOurApp = () => {
                                         alt="app store"
                                         width={145}
                                         height={45}
+                                        unoptimized
                                     />
                                 </Link>
                             </div>
