@@ -19,7 +19,7 @@ export const DownloadOurApp = () => {
               />
             </div>
             <div className="flex-1">
-              <p className="text-[20px] leading-[28px] w-[586px] text-[var(--text-tertiary)]">
+              <p className="font-medium text-[20px] leading-[28px] w-[586px] text-[var(--text-tertiary)] pb-4">
                 Boost your productivity with the BHIVE Workspace app. <br /> 
                 Elevate your workspace, collaborate efficiently, and unlock 
                 exclusive perks.

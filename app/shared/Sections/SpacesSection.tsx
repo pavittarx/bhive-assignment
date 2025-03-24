@@ -1,18 +1,15 @@
 "use client";
-
-import Image from "next/image";
-import { oneLine } from "common-tags";
-
-import { useState, useEffect } from "react";
-import {
-  Card,
-  CardHeader,
-  CardContent,
-  CardFooter,
-} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MapPin } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+} from "@/components/ui/card";
+import { oneLine } from "common-tags";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
 type DayPassDiscount = {
   value: number;

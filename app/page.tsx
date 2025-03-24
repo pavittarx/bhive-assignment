@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+import { HomeSection } from "./shared/Sections/HomeSection";
 import { ServicesSection } from "./shared/Sections/ServicesSection";
 import { SpacesSection } from "./shared/Sections/SpacesSection";
 import { DownloadOurApp } from "./shared/Sections/DownloadsSection";
@@ -7,28 +6,7 @@ import { DownloadOurApp } from "./shared/Sections/DownloadsSection";
 export default function Home() {
   return (
     <main>
-      <div className="container mx-auto flex relative">
-        <div className="relative w-full overflow-hidden">
-          <img
-            src="/bg-main-1.png"
-            alt="Background"
-            className="absolute top-0"
-          />
-        </div>
-
-        <div className="w-[500px] h-[500px]">
-          <img
-            src="/bg-main-2-rbg.png"
-            alt="BHIVE Coworking"
-            className="absolute top-0"
-          />
-        </div>
-
-        <h1 className="absolute w-full max-w-3xl font-bold top-20">
-          Host your meeting with world-class amenities. Starting at{" "}
-          <span className="text-[var(--primary-2)]">₹199/-!</span>
-        </h1>
-      </div>
+      <HomeSection />
       <ServicesSection />
       <SpacesSection />
       <DownloadOurApp />

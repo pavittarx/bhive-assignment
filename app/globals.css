@@ -4,40 +4,40 @@
 :root {
   --radius: 0.625rem;
   /* Primary Colors */
-  --background: #F9FAFF;
+  --background: #f9faff;
   --white: #fff;
-  
+
   /* Logo Colors */
   --primary: #000000;
   --primary-2: #ffbb00;
   --primary-foreground: #ffffff;
-  
-  --main: #FFCF4B;
-  --main-stroke: #FFC422;
 
-  --main-grey: #F9F9F9;
-  --main-dark-grey: #CEC6C6;
+  --main: #ffcf4b;
+  --main-stroke: #ffc422;
+
+  --main-grey: #f9f9f9;
+  --main-dark-grey: #cec6c6;
 
   --text-main: #263238;
-  --text-secondary: #65624C;
-  --text-tertiary: #605F5F;
-  
+  --text-secondary: #65624c;
+  --text-tertiary: #605f5f;
+
   /* Greys */
   --grey-1: #333333;
-  --grey-2: #4F4F4F;
+  --grey-2: #4f4f4f;
   --grey-3: #828282;
-  --grey-4: #B7B6B8;
-  --grey-5: #E0E0E0;
-  
+  --grey-4: #b7b6b8;
+  --grey-5: #e0e0e0;
+
   /* Sidebar Colors */
   --sidebar: oklch(1 0 0);
-  --sidebar-foreground: #2C2C2C;
+  --sidebar-foreground: #2c2c2c;
   --sidebar-primary: #000000;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #FFB800;
+  --sidebar-accent: #ffb800;
   --sidebar-accent-foreground: #000000;
-  --sidebar-border: #E5E5E5;
-  --sidebar-ring: #FFB800;
+  --sidebar-border: #e5e5e5;
+  --sidebar-ring: #ffb800;
 
   --radius: 0.625rem;
   /* Typography */
@@ -47,7 +47,7 @@
   --font-size-h4: 20px;
   --font-size-h5: 18px;
   --font-size-h6: 16px;
-  
+
   --line-height-h1: calc(var(--font-size-h1) * 1.1);
   --line-height-h2: calc(var(--font-size-h2) * 1.1);
   --line-height-h3: calc(var(--font-size-h3) * 1.1);
@@ -55,9 +55,9 @@
   --line-height-h5: calc(var(--font-size-h5) * 1.1);
   --line-height-h6: calc(var(--font-size-h6) * 1.1);
 
-  --badge-gradient: 100.27deg, #263238 22.66%, #2F4B59 67.67%;
-  
-  --extra-grey:#eee7e7;
+  --badge-gradient: 100.27deg, #263238 22.66%, #2f4b59 67.67%;
+
+  --extra-grey: #eee7e7;
   --extra-yellow: #ffc422;
 }
 
@@ -66,48 +66,50 @@ body {
   color: var(--text-main);
 }
 
-h1 {
-  font-size: var(--font-size-h1);
-  line-height: var(--line-height-h1);
-  font-weight: 700;
-}
+@layer base {
+  h1 {
+    font-size: var(--font-size-h1);
+    line-height: var(--line-height-h1);
+    font-weight: 700;
+  }
 
-h2 {
-  font-size: var(--font-size-h2);
-  line-height: var(--line-height-h2);
-  font-weight: 700;
-}
+  h2 {
+    font-size: var(--font-size-h2);
+    line-height: var(--line-height-h2);
+    font-weight: 700;
+  }
 
-h3 {
-  font-size: var(--font-size-h3);
-  line-height: var(--line-height-h3);
-  font-weight: 600;
-}
+  h3 {
+    font-size: var(--font-size-h3);
+    line-height: var(--line-height-h3);
+    font-weight: 600;
+  }
 
-h4 {
-  font-size: var(--font-size-h4);
-  line-height: var(--line-height-h4);
-  font-weight: 600;
-}
+  h4 {
+    font-size: var(--font-size-h4);
+    line-height: var(--line-height-h4);
+    font-weight: 600;
+  }
 
-h5 {
-  font-size: var(--font-size-h5);
-  line-height: var(--line-height-h5);
-  font-weight: 500;
-}
+  h5 {
+    font-size: var(--font-size-h5);
+    line-height: var(--line-height-h5);
+    font-weight: 500;
+  }
 
-h6 {
-  font-size: var(--font-size-h6);
-  line-height: var(--line-height-h6);
-  font-weight: 500;
-}
+  h6 {
+    font-size: var(--font-size-h6);
+    line-height: var(--line-height-h6);
+    font-weight: 500;
+  }
 
-p {
-  line-height: 1.5;
-  margin-bottom: 1rem;
-}
+  p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
 
-/* Paragraph spacing */
-p + p {
-  margin-top: 1rem;
+  /* Paragraph spacing */
+  p + p {
+    margin-top: 1rem;
+  }
 }
