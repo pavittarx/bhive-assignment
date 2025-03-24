@@ -60,11 +60,18 @@ export const SpacesSection = () => {
 
   return (
     <section className="container mx-auto mb-[120px]">
-      <h2 className="mb-[40px]">Our Space Overview</h2>
+      <h2 className={oneLine`
+          ml-[20px]
+          text-[24px]
+          lg:text-[36px]
+          lg:mb-[40px]
+        `}>Our Space Overview</h2>
       <div
         className={oneLine`
+                        mx-[20px]
                         grid 
-                        grid-cols-2 
+                        grid-cols-1
+                        md:grid-cols-2
                         lg:grid-cols-4 gap-[20px] 
                         `}
       >
@@ -83,7 +90,7 @@ export const SpacesSection = () => {
           return (
             <Card key={space.id} className="overflow-hidden">
               <CardHeader className="">
-                <div className="flex items-center justify-between ">
+                <div className="flex items-center justify-between">
                   <h4>{space.name}</h4>
                   <Button
                     variant="ghost"
